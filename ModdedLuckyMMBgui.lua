@@ -2327,6 +2327,7 @@ end)
 --- ReJoin Server ---
 
 ReJoinServer.MouseButton1Click:connect(function()
-	local placeId = 2202352383
-	game:GetService("TeleportService"):Teleport(placeId)
+	plr.LocalPlayer:Kick("\nRejoining...")
+	wait()
+	game:GetService("TeleportService"):Teleport(game.PlaceId, plr.LocalPlayer)
 end)
