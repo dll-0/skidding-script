@@ -1,3 +1,9 @@
+--	Loadstring	--
+
+--[[
+loadstring(game:HttpGet"https://raw.githubusercontent.com/dll-0/skidding-script/main/ForgottenMemories.lua")()
+--]]
+
 --	Initialize	--
 
 repeat wait() until game:IsLoaded()
