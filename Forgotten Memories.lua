@@ -7,7 +7,8 @@ repeat wait() until game:GetService("Players")
 repeat wait() until game:GetService("Players").LocalPlayer.Character
 	print("[SexyCode] Character Loaded...")
 
--- Vars --
+
+--	Vars	--
 
 getgenv().EntityTog = false
 getgenv().PlayerTog = false
@@ -66,7 +67,7 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({
-	Name = 'Forgor 💀',
+	Name = 'Forgor Memor 💀',
 	HidePremium = true,
 	SaveConfig = false,
 	IntroEnabled = false,
@@ -455,10 +456,10 @@ OrionLib:MakeNotification({
 			})
 
 
---	Lib Start Up	--
+--	Lib	--
 
 OrionLib:Init()
 print("[SexyCode] Executed...")
 
 
---	End	--
+--	pls fix player chams no work on main place	--
